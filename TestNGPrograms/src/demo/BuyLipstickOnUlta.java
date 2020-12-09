@@ -46,7 +46,7 @@ public class BuyLipstickOnUlta {
 			if (x.getText().equals("Lolita II (terra cotta nude)")) {
 				x.click();
 				break;
-				Dont buy Lipstick
+				//Dont buy Lipstick
 			}
 		}
 		
