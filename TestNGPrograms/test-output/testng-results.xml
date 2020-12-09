@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11519" started-at="2020-07-29T10:52:27 EDT" finished-at="2020-07-29T10:52:39 EDT">
+    <groups>
+      <group name="regression">
+        <method signature="MultipleValidations.verifySignUpBtn()[pri:3, instance:demo.MultipleValidations@887af79]" name="verifySignUpBtn" class="demo.MultipleValidations"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="MultipleValidations.verifyMaleRadioBtn()[pri:2, instance:demo.MultipleValidations@887af79]" name="verifyMaleRadioBtn" class="demo.MultipleValidations"/>
+      </group> <!-- smoke -->
+      <group name="def-group">
+        <method signature="MultipleValidations.titleVerification()[pri:0, instance:demo.MultipleValidations@887af79]" name="titleVerification" class="demo.MultipleValidations"/>
+        <method signature="MultipleValidations.verifyMaleRadioBtn()[pri:2, instance:demo.MultipleValidations@887af79]" name="verifyMaleRadioBtn" class="demo.MultipleValidations"/>
+        <method signature="MultipleValidations.verifySignUpBtn()[pri:3, instance:demo.MultipleValidations@887af79]" name="verifySignUpBtn" class="demo.MultipleValidations"/>
+        <method signature="MultipleValidations.verifyText()[pri:0, instance:demo.MultipleValidations@887af79]" name="verifyText" class="demo.MultipleValidations"/>
+      </group> <!-- def-group -->
+    </groups>
+    <test name="Test" duration-ms="11519" started-at="2020-07-29T10:52:27 EDT" finished-at="2020-07-29T10:52:39 EDT">
+      <class name="demo.MultipleValidations">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:demo.MultipleValidations@887af79]" name="launchApplication" is-config="true" duration-ms="7101" started-at="2020-07-29T10:52:27 EDT" finished-at="2020-07-29T10:52:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="titleVerification()[pri:0, instance:demo.MultipleValidations@887af79]" name="titleVerification" duration-ms="10" started-at="2020-07-29T10:52:34 EDT" finished-at="2020-07-29T10:52:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method status="PASS" signature="verifyText()[pri:0, instance:demo.MultipleValidations@887af79]" name="verifyText" duration-ms="24" started-at="2020-07-29T10:52:34 EDT" finished-at="2020-07-29T10:52:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="verifyMaleRadioBtn()[pri:2, instance:demo.MultipleValidations@887af79]" name="verifyMaleRadioBtn" duration-ms="17" started-at="2020-07-29T10:52:34 EDT" finished-at="2020-07-29T10:52:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaleRadioBtn -->
+        <test-method status="PASS" signature="verifySignUpBtn()[pri:3, instance:demo.MultipleValidations@887af79]" name="verifySignUpBtn" duration-ms="17" started-at="2020-07-29T10:52:34 EDT" finished-at="2020-07-29T10:52:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpBtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demo.MultipleValidations@887af79]" name="closeBrowser" is-config="true" duration-ms="4316" started-at="2020-07-29T10:52:34 EDT" finished-at="2020-07-29T10:52:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.MultipleValidations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
